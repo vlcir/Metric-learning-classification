@@ -1,8 +1,8 @@
 # Пути к данным
 ROOT_DIR: "./veri776_ds"
-query_list_file: "../vehiclereid_baseline/list/veri_query_list.txt"
-gallery_list_file: "../vehiclereid_baseline/list/veri_test_list.txt"
-train_list_file: "../vehiclereid_baseline/list/veri_train_list.txt"
+query_list_file: "../list/veri_query_list.txt"
+gallery_list_file: "../list/veri_test_list.txt"
+train_list_file: "../list/veri_train_list.txt"
 train_dir: "./veri776_ds"
 query_dir: "./veri776_ds"
 teste_dir: "./veri776_ds"
@@ -89,8 +89,8 @@ momentum: 0.9
 sched_name: Warm_MultiStep
 min_lr: 7.75e-5
 
-# num_epochs: 130
-num_epochs: 1
+num_epochs: 130
+# num_epochs: 1
 
 milestones: [40, 70, 100]
 gamma: 0.1
